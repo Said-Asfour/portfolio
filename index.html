@@ -23,7 +23,7 @@
 
     <label class="logo">Said Asfour</label>
    
-    <ul>
+    <ul id="nav-links>
       <li><a href="#About">About</a></li>
       <li><a href="#Projects">Projects</a></li>
       <li><a href="#Skills">Skills</a></li>
@@ -140,6 +140,20 @@
 
   </section>
 
+<script>
+  // Select the checkbox and all nav links
+  const menuCheckbox = document.getElementById('check');
+  const navLinks = document.querySelectorAll('#nav-links a');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      // Uncheck the checkbox to close the menu
+      menuCheckbox.checked = false;
+    });
+  });
+</script>
+
+    
 </body>
 
 </html>
