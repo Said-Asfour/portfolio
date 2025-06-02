@@ -536,12 +536,13 @@ padding-top:40px;
   }
 
   #services-section {
+    height:auto;
     padding-bottom: 140px; /* ensure space for wrapping content */
-    margin-bottom:900px;
+    margin-bottom:00px;
   }
 
   #contact-section {
     margin-top: 60px; /* creates space to prevent overlap */
-    padding-top: 80px;
+    padding: 70px;
   }
 }
