@@ -23,6 +23,7 @@ label.logo {
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
+ 
 }
 nav ul {
   float: right;
@@ -38,10 +39,13 @@ nav ul li a {
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
-  transition: color 0.3s ease-in-out;
+   transition: color 0.3s ease-in-out;
 
 }
 
+a:hover{
+  color:#2E8B57;
+}
 .checkbtn {
   font-size: 22px;
   color: white;
@@ -54,6 +58,7 @@ nav ul li a {
 #check {
   display: none;
 }
+
 @media (max-width: 1050px) {
   label.logo {
     padding-left: 30px;
