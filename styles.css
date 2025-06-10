@@ -391,6 +391,29 @@ padding-top:40px;
 }
 
 
+@media (max-width: 600px) {
+  #Skills {
+    height: auto; /* Allow the section to expand based on content */
+    padding: 20px 10px; /* Add some padding for better spacing */
+  }
+
+  #Skills h1 {
+    font-size: 24px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .icons-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #Skills i {
+    font-size: 1.5rem;
+    margin: 8px;
+  }
+}
 
 
 
