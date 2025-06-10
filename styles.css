@@ -205,11 +205,11 @@ font-size:30px;
 
 }
 
-/*.icons i:hover{
+.icons i:hover{
 color:#92C09A;
 
 }
-*/
+
 
 @media (max-width: 768px) {
   #About {
